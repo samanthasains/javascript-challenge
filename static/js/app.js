@@ -35,7 +35,7 @@ var dateTime = d3.select("#datetime").property("value");
 console.log(dateTime);
 
 // Filter data
-var filteredData = tableData.filter(record => record.dateTime === dateTime);
+var filteredData = tableData.filter(record => record.datetime === dateTime);
 console.log(filteredData);
 
 // Display filtered data
